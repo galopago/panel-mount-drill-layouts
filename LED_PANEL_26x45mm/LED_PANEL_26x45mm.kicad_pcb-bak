@@ -190,8 +190,8 @@
     (pad 1 thru_hole circle (at 0 0) (size 1.99898 1.99898) (drill 0.8001) (layers *.Cu *.Mask))
   )
 
-  (gr_text "LED METER PANEL CUT-OUT DRILLS" (at 83.31212 81.407) (layer F.SilkS)
-    (effects (font (size 0.7 0.7) (thickness 0.15)))
+  (gr_text "LED METER PANEL CUT-OUT DRILLS" (at 90.89644 81.41716) (layer F.SilkS)
+    (effects (font (size 0.65 0.65) (thickness 0.15)))
   )
   (gr_text BEZEL (at 74.90472 79.9644) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
