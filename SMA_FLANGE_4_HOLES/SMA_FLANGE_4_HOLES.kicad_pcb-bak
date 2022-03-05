@@ -211,7 +211,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 1.99898 1.99898) (drill 0.8001) (layers *.Cu *.Mask))
   )
 
-  (gr_text "SMA\nFLANGE\n4 HOLES" (at 59.57316 57.74436) (layer F.SilkS)
+  (gr_text "SMA\nFLANGE\n4 HOLES" (at 55.69204 53.43652) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)) (justify left))
   )
   (gr_text "8.6 mm" (at 53.24348 57.44972 -90) (layer F.SilkS) (tstamp 6222CA9E)
