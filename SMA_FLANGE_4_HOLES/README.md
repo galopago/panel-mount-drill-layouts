@@ -16,7 +16,7 @@ The PCB was developed in KiCad V5.1,
 
 ## Paper drilling templae
 
-![PAPERTEMPLATE](assets/img/paper.png)
+![PAPERTEMPLATE](assets/img/paper.jpg)
 
 ## PCB drilling template
 
