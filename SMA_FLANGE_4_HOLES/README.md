@@ -24,11 +24,17 @@ The PCB was developed in KiCad V5.1,
 
 ## PCB drilling template
 
-The stamp style module is placed on the back of the card.
 
 ![PCBTEMPLATE](assets/img/pcb.jpg)
 
-## Front
+## MEDIA FILES
+
+| HINT                        | ENCLOSURE SIZE        | LINK                                     
+|-----------------------------|-----------------------|---------------------------------------------------
+| PCB Gerber (single board)   | 83x58mm               | [GERBER_SINGLE](/gerber/single)  
+| PCB Gerber (panelized board)| 83x58mm               | [GERBER_PANEL](/gerber/panel)  
+| Paper (PDF)                 | Sports Cam compatible | [PAPER_PDF](/assets/pdf/drill-layout.pdf)
+| Paper (SVG)                 | Sports Cam compatible | [PAPER_SVG](/assets/img/drill-layout.svf)
 
 All of the pins of the module are routed to pcb pads, also, space for 2 AA size battery holder. There are also some traces for breadboarding
 
