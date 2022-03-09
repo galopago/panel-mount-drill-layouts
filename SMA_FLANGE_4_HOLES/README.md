@@ -29,12 +29,13 @@ The PCB was developed in KiCad V5.1,
 
 ## MEDIA FILES
 
-| HINT                        | ENCLOSURE SIZE        | LINK                                     
-|-----------------------------|-----------------------|---------------------------------------------------
-| PCB Gerber (single board)   | 83x58mm               | [GERBER_SINGLE](gerber/single)  
-| PCB Gerber (panelized board)| 83x58mm               | [GERBER_PANEL](gerber/panel)  
-| Paper (PDF)                 | Sports Cam compatible | [PAPER_PDF](assets/pdf/drill-layout.pdf)
-| Paper (SVG)                 | Sports Cam compatible | [PAPER_SVG](assets/img/drill-layout.svf)
+| HINT                        | LINK                                     
+|-----------------------------|------------------------------------------
+| PCB Source (KiCad V5.1)     | root folder
+| PCB Gerber (single board)   | [GERBER_SINGLE](gerber/single)  
+| PCB Gerber (panelized board)| [GERBER_PANEL](gerber/panel)  
+| Paper (PDF)                 | [PAPER_PDF](assets/pdf/drill-layout.pdf)
+| Paper (SVG)                 | [PAPER_SVG](assets/img/drill-layout.svf)
 
 All of the pins of the module are routed to pcb pads, also, space for 2 AA size battery holder. There are also some traces for breadboarding
 
