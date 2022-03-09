@@ -14,6 +14,10 @@ The PCB was developed in KiCad V5.1,
 * /gerber folder contains ready to manufacture files.
 * /assets folder contains support files for reade.md
 
+## SMA panel connector
+
+![SMACONNECTOR](assets/img/smaconnector.jpg)
+
 ## Paper drilling templae
 
 ![PAPERTEMPLATE](assets/img/paper.jpg)
