@@ -1,6 +1,6 @@
 # SMA PANEL ANTENNA CONNECTOR DRILLING TEMPLATE
 
-Different "drilling helpers" for mounting a [SMA PANEL ANTENNA CONNECTOR](assets/pdf/Catalog_SMA.pdf). This templates can be produced in different media: paper or pcb. 
+Different "drilling helpers" for mounting an [SMA PANEL ANTENNA CONNECTOR](assets/pdf/Catalog_SMA.pdf). Those templates can be produced in different media: paper or PCB. 
 
 ![SMAPANEL](assets/img/smapanel.jpg)
 
@@ -8,7 +8,7 @@ Different "drilling helpers" for mounting a [SMA PANEL ANTENNA CONNECTOR](assets
 
 ![SMACONNECTOR](assets/img/smaconnector.jpg)
 
-## Paper drilling templae
+## Paper drilling template
 
 ![PAPERTEMPLATE](assets/img/paper.jpg)
 
