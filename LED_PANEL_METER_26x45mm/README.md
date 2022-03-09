@@ -2,11 +2,11 @@
 
 Different "drilling helpers" for mounting an [LED PANEL METER](assets/pdf/panelmeter.pdf). Those templates can be produced in different media: paper or PCB. 
 
-![LEDMETERPANEL](assets/img/ledpanel.jpg)
+![LEDPANEL](assets/img/ledpanel.png)
 
-## SMA panel connector
+## Led panel meter
 
-![SMACONNECTOR](assets/img/smaconnector.jpg)
+![LEDPANELMETER](assets/img/ledpanelmeter.jpg)
 
 ## Paper drilling template
 
