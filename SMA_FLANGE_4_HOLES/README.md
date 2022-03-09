@@ -25,6 +25,6 @@ Different "drilling helpers" for mounting a [SMA PANEL ANTENNA CONNECTOR](assets
 | PCB Gerber (single board)   | [GERBER_SINGLE](gerber/single)  
 | PCB Gerber (panelized board)| [GERBER_PANEL](gerber/panel)  
 | Paper (PDF)                 | [PAPER_PDF](assets/pdf/drill-layout.pdf)
-| Paper (SVG)                 | [PAPER_SVG](assets/img/drill-layout.svf)
+| Paper (SVG)                 | [PAPER_SVG](assets/img/drill-layout.svg)
 
 
