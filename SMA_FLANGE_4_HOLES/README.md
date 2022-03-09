@@ -1,8 +1,8 @@
 # SMA PANEL ANTENNA CONNECTOR DRILLING TEMPLATE
 
-Different "drilling helpers" for mounting a [SMA PANEL ANTENNA CONNECTOR](assets/pdf/Catalog_SMA.pdf) is a LoRa module in a "stamp" factor plus an RP2040 chip. The board is designed to fit inside a generic 83x58mm waterproof enclosure. 
+Different "drilling helpers" for mounting a [SMA PANEL ANTENNA CONNECTOR](assets/pdf/Catalog_SMA.pdf). This templates can be produced in different media: paper or pcb. 
 
-![PCBANDENCLOSURE](assets/img/pcbandenclosure.jpg)
+![SMAPANEL](assets/img/smapanel.jpg)
 
 ## How to use this repository
 
@@ -14,15 +14,15 @@ The PCB was developed in KiCad V5.1,
 * /gerber folder contains ready to manufacture files.
 * /assets folder contains support files for reade.md
 
-## PCB layout
+## Paper drilling templae
 
-![LAYOUT](assets/img/pinout.svg)
+![PAPERTEMPLATE](assets/img/paper.png)
 
-## Back
+## PCB drilling template
 
 The stamp style module is placed on the back of the card.
 
-![BACK](assets/img/back.jpg)
+![PCBTEMPLATE](assets/img/pcb.jpg)
 
 ## Front
 
