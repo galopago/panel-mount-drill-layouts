@@ -10,6 +10,6 @@ N connector         |SMA connector                      | LED meter
 
 | HINT                | LINK                                     
 |---------------------|-----------------------------------------------------
-| LED meter | 83x58mm | [MCU_PROTO_83x58mm](/MCU_PROTO_83x58mm)  
-| SMA connector       | [ESP32CAM_PROTO_83x58mm](/ESP32CAM_PROTO_83x58mm)  
-| N connecotr         | [ESP32CAM_PROTO_SPORTCAM](/ESP32CAM_PROTO_SPORTCAM)
+| LED meter           | [LED PANEL METER](/LED_PANEL_METER_26x45mm)  
+| SMA connector       | [SMA ANTENNA CONNECTOR](/SMA_FLANGE_4_HOLES)  
+| N connector         | [N ANTENNA CONNECTOR](/N_FLANGE_4_HOLES)
