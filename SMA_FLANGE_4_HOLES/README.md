@@ -1,6 +1,6 @@
 # SMA PANEL ANTENNA CONNECTOR DRILLING TEMPLATE
 
-[RAK11300](assets/pdf/RAK11300.pdf) is a LoRa module in a "stamp" factor plus an RP2040 chip. The board is designed to fit inside a generic 83x58mm waterproof enclosure. 
+Different "drilling helpers" for mounting a [SMA PANEL ANTENNA CONNECTOR](assets/pdf/Catalog_SMA.pdf) is a LoRa module in a "stamp" factor plus an RP2040 chip. The board is designed to fit inside a generic 83x58mm waterproof enclosure. 
 
 ![PCBANDENCLOSURE](assets/img/pcbandenclosure.jpg)
 
@@ -11,8 +11,6 @@ The PCB was developed in KiCad V5.1,
 ## Directory structure
 
 * The root folder contains template KiCad files: project, schematic and PCB 
-* /library folder contains additional symbols needed to edit printed schematic
-* /modules folder contains additional footprints needed to edit printed circuit board
 * /gerber folder contains ready to manufacture files.
 * /assets folder contains support files for reade.md
 
