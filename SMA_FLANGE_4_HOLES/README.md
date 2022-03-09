@@ -37,20 +37,4 @@ The PCB was developed in KiCad V5.1,
 | Paper (PDF)                 | [PAPER_PDF](assets/pdf/drill-layout.pdf)
 | Paper (SVG)                 | [PAPER_SVG](assets/img/drill-layout.svf)
 
-All of the pins of the module are routed to pcb pads, also, space for 2 AA size battery holder. There are also some traces for breadboarding
-
-![FRONT](assets/img/front.jpg)
-
-Module soldered on the back
-
-![MODULE](assets/img/module.jpg)
-
-Female headers used for debugging or adding a "hat" card with additional electronics.
-
-![MODULE](assets/img/space.jpg)
-
-Panelized PCB version 
-
-![PANEL](assets/img/panel.jpg)
-
 
