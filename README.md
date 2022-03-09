@@ -2,9 +2,9 @@
 
 Different "drilling helpers" for mounting diverse panel devices. Those templates can be produced in different media: paper or PCB. 
 
-N connector         |SMA connector                      | LED meter                 
-------------------------------|--------------------------------|-----------------------------
-![](/LED_PANEL_METER_26x45mm/assets/img/ledpanel.png)      |![](/SMA_FLANGE_4_HOLES/assets/img/smapanel.jpg)      |![](/N_FLANGE_4_HOLES/assets/img/npanel.jpg) 
+LED meter                                            |SMA connector                                   | N connector                 
+-----------------------------------------------------|------------------------------------------------|-----------------------------
+![](/LED_PANEL_METER_26x45mm/assets/img/ledpanel.png)|![](/SMA_FLANGE_4_HOLES/assets/img/smapanel.jpg)|![](/N_FLANGE_4_HOLES/assets/img/npanel.jpg) 
 
 ## Devices
 
