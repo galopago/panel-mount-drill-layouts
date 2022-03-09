@@ -14,5 +14,3 @@ LED meter                                            |SMA connector             
 | SMA connector       | [SMA ANTENNA CONNECTOR](/SMA_FLANGE_4_HOLES)  
 | N connector         | [N ANTENNA CONNECTOR](/N_FLANGE_4_HOLES)
 
-
-![](/N_FLANGE_4_HOLES/assets/img/npanel.jpg)
