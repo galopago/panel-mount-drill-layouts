@@ -10,7 +10,7 @@ LED meter                                            |SMA connector             
 
 | HINT                | LINK                                     
 |---------------------|-----------------------------------------------------
-| LED meter           | [LED PANEL METER](/LED_PANEL_METER_26x45mm)  
-| SMA connector       | [SMA ANTENNA CONNECTOR](/SMA_FLANGE_4_HOLES)  
-| N connector         | [N ANTENNA CONNECTOR](/N_FLANGE_4_HOLES)
+| LED meter           | [LED PANEL METER](/led-panel-meter-26x45mm)  
+| SMA connector       | [SMA ANTENNA CONNECTOR](/sma-flange-4-holes)  
+| N connector         | [N ANTENNA CONNECTOR](/n-flange-4-holes)
 
