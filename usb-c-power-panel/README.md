@@ -1,6 +1,6 @@
 # USB C POWER PANEL CONNECTOR DRILLING TEMPLATE
 
-Different "drilling helpers" for mounting an [USB C POWER PANEL CONNECTOR](assets/pdf/N_FLANGE_TO_UFL_IPX.pdf). Those templates can be produced in different media: paper or PCB. 
+Different "drilling helpers" for mounting an [USB C POWER PANEL CONNECTOR](assets/pdf/usb-c-power-panel-connector-2-pin.pdf). Those templates can be produced in different media: paper or PCB. 
 
 ![USBCPOWERPANEL](assets/img/usbcpowerpanel.jpg)
 
