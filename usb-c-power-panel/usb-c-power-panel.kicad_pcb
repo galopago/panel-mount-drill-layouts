@@ -2,10 +2,10 @@
 
   (general
     (thickness 1.6)
-    (drawings 4)
+    (drawings 10)
     (tracks 0)
     (zones 0)
-    (modules 3)
+    (modules 24)
     (nets 1)
   )
 
@@ -101,67 +101,468 @@
     (uvia_drill 0.1)
   )
 
-  (module MountingHole:MountingHole_2.1mm (layer F.Cu) (tedit 5B924765) (tstamp 62CF95DE)
-    (at 110.07852 94.869)
-    (descr "Mounting Hole 2.1mm, no annular")
-    (tags "mounting hole 2.1mm no annular")
+  (module MountingHoleSmall:MountingHole_1mm (layer F.Cu) (tedit 62CF6F17) (tstamp 62CFD200)
+    (at 114.975 109.1)
+    (descr "MountingHole_1mm, no annular")
+    (tags "mountingHole_1mm no annular")
     (attr virtual)
-    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MountingHole_2.1mm (at 0 3.2) (layer F.Fab)
+    (fp_text value MountingHole_1mm (at 0 3.2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_circle (center 0 0) (end 2.35 0) (layer F.CrtYd) (width 0.05))
-    (fp_circle (center 0 0) (end 2.1 0) (layer Cmts.User) (width 0.15))
-    (fp_text user %R (at 0.3 0) (layer F.Fab)
+    (fp_circle (center 0 0) (end 1.25 0) (layer F.CrtYd) (width 0.05))
+    (fp_circle (center 0 0) (end 1 0) (layer Cmts.User) (width 0.15))
+    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad "" np_thru_hole circle (at 0 0) (size 2.1 2.1) (drill 2.1) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module Connector_Wire:SolderWirePad_1x01_Drill1mm (layer F.Cu) (tedit 5AEE5EBE) (tstamp 62CF90FE)
+  (module MountingHoleSmall:MountingHole_1mm (layer F.Cu) (tedit 62CF6F17) (tstamp 62CFD185)
+    (at 110.025 109.1)
+    (descr "MountingHole_1mm, no annular")
+    (tags "mountingHole_1mm no annular")
+    (attr virtual)
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_1mm (at 0 3.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 1.25 0) (layer F.CrtYd) (width 0.05))
+    (fp_circle (center 0 0) (end 1 0) (layer Cmts.User) (width 0.15))
+    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module MountingHoleSmall:MountingHole_1mm (layer F.Cu) (tedit 62CF6F17) (tstamp 62CFD0EE)
+    (at 111.2625 109.1)
+    (descr "MountingHole_1mm, no annular")
+    (tags "mountingHole_1mm no annular")
+    (attr virtual)
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_1mm (at 0 3.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 1 0) (layer Cmts.User) (width 0.15))
+    (fp_circle (center 0 0) (end 1.25 0) (layer F.CrtYd) (width 0.05))
+    (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module MountingHoleSmall:MountingHole_1mm (layer F.Cu) (tedit 62CF6F17) (tstamp 62CFD083)
+    (at 113.7375 109.1)
+    (descr "MountingHole_1mm, no annular")
+    (tags "mountingHole_1mm no annular")
+    (attr virtual)
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_1mm (at 0 3.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 1 0) (layer Cmts.User) (width 0.15))
+    (fp_circle (center 0 0) (end 1.25 0) (layer F.CrtYd) (width 0.05))
+    (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module MountingHoleSmall:MountingHole_1mm (layer F.Cu) (tedit 62CF6F17) (tstamp 62CFCFEF)
+    (at 116.2125 109.1)
+    (descr "MountingHole_1mm, no annular")
+    (tags "mountingHole_1mm no annular")
+    (attr virtual)
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_1mm (at 0 3.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 1 0) (layer Cmts.User) (width 0.15))
+    (fp_circle (center 0 0) (end 1.25 0) (layer F.CrtYd) (width 0.05))
+    (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module MountingHoleSmall:MountingHole_1mm (layer F.Cu) (tedit 62CF6F17) (tstamp 62CFCE84)
+    (at 108.7875 109.1)
+    (descr "MountingHole_1mm, no annular")
+    (tags "mountingHole_1mm no annular")
+    (attr virtual)
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_1mm (at 0 3.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 1 0) (layer Cmts.User) (width 0.15))
+    (fp_circle (center 0 0) (end 1.25 0) (layer F.CrtYd) (width 0.05))
+    (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module MountingHoleSmall:MountingHole_1mm (layer F.Cu) (tedit 62CF6F17) (tstamp 62CFCDF4)
+    (at 108.7875 105)
+    (descr "MountingHole_1mm, no annular")
+    (tags "mountingHole_1mm no annular")
+    (attr virtual)
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_1mm (at 0 3.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 1.25 0) (layer F.CrtYd) (width 0.05))
+    (fp_circle (center 0 0) (end 1 0) (layer Cmts.User) (width 0.15))
+    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module MountingHoleSmall:MountingHole_1mm (layer F.Cu) (tedit 62CF6F17) (tstamp 62CFCD3A)
+    (at 116.2125 105)
+    (descr "MountingHole_1mm, no annular")
+    (tags "mountingHole_1mm no annular")
+    (attr virtual)
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_1mm (at 0 3.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 1 0) (layer Cmts.User) (width 0.15))
+    (fp_circle (center 0 0) (end 1.25 0) (layer F.CrtYd) (width 0.05))
+    (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module MountingHoleSmall:MountingHole_1mm (layer F.Cu) (tedit 62CF6F17) (tstamp 62CFCCCE)
+    (at 113.7375 105)
+    (descr "MountingHole_1mm, no annular")
+    (tags "mountingHole_1mm no annular")
+    (attr virtual)
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_1mm (at 0 3.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 1.25 0) (layer F.CrtYd) (width 0.05))
+    (fp_circle (center 0 0) (end 1 0) (layer Cmts.User) (width 0.15))
+    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module MountingHoleSmall:MountingHole_1mm (layer F.Cu) (tedit 62CF6F17) (tstamp 62CFCB03)
+    (at 111.2625 105)
+    (descr "MountingHole_1mm, no annular")
+    (tags "mountingHole_1mm no annular")
+    (attr virtual)
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_1mm (at 0 3.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 1 0) (layer Cmts.User) (width 0.15))
+    (fp_circle (center 0 0) (end 1.25 0) (layer F.CrtYd) (width 0.05))
+    (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module MountingHoleSmall:MountingHole_1mm (layer F.Cu) (tedit 62CF6F17) (tstamp 62CFCA97)
+    (at 110.025 105)
+    (descr "MountingHole_1mm, no annular")
+    (tags "mountingHole_1mm no annular")
+    (attr virtual)
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_1mm (at 0 3.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 1.25 0) (layer F.CrtYd) (width 0.05))
+    (fp_circle (center 0 0) (end 1 0) (layer Cmts.User) (width 0.15))
+    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module MountingHoleSmall:MountingHole_1mm (layer F.Cu) (tedit 62CF6F17) (tstamp 62CFCA09)
+    (at 114.975 105)
+    (descr "MountingHole_1mm, no annular")
+    (tags "mountingHole_1mm no annular")
+    (attr virtual)
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_1mm (at 0 3.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 1.25 0) (layer F.CrtYd) (width 0.05))
+    (fp_circle (center 0 0) (end 1 0) (layer Cmts.User) (width 0.15))
+    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module MountingHoleSmall:MountingHole_1mm (layer F.Cu) (tedit 62CF6F17) (tstamp 62CFC981)
+    (at 112.5 109.1)
+    (descr "MountingHole_1mm, no annular")
+    (tags "mountingHole_1mm no annular")
+    (attr virtual)
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_1mm (at 0 3.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 1.25 0) (layer F.CrtYd) (width 0.05))
+    (fp_circle (center 0 0) (end 1 0) (layer Cmts.User) (width 0.15))
+    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module MountingHoleSmall:MountingHole_1mm (layer F.Cu) (tedit 62CF6F17) (tstamp 62CFC8E8)
+    (at 112.5 105)
+    (descr "MountingHole_1mm, no annular")
+    (tags "mountingHole_1mm no annular")
+    (attr virtual)
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_1mm (at 0 3.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 1 0) (layer Cmts.User) (width 0.15))
+    (fp_circle (center 0 0) (end 1.25 0) (layer F.CrtYd) (width 0.05))
+    (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module MountingHoleSmall:MountingHole_1mm (layer F.Cu) (tedit 62CF6F17) (tstamp 62CFC869)
+    (at 117.45 107.74)
+    (descr "MountingHole_1mm, no annular")
+    (tags "mountingHole_1mm no annular")
+    (attr virtual)
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_1mm (at 0 3.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 1.25 0) (layer F.CrtYd) (width 0.05))
+    (fp_circle (center 0 0) (end 1 0) (layer Cmts.User) (width 0.15))
+    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module MountingHoleSmall:MountingHole_1mm (layer F.Cu) (tedit 62CF6F17) (tstamp 62CFC7CF)
+    (at 107.55 107.74)
+    (descr "MountingHole_1mm, no annular")
+    (tags "mountingHole_1mm no annular")
+    (attr virtual)
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_1mm (at 0 3.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 1 0) (layer Cmts.User) (width 0.15))
+    (fp_circle (center 0 0) (end 1.25 0) (layer F.CrtYd) (width 0.05))
+    (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module MountingHoleSmall:MountingHole_1mm (layer F.Cu) (tedit 62CF6F17) (tstamp 62CFC754)
+    (at 117.45 106.36)
+    (descr "MountingHole_1mm, no annular")
+    (tags "mountingHole_1mm no annular")
+    (attr virtual)
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_1mm (at 0 3.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 1 0) (layer Cmts.User) (width 0.15))
+    (fp_circle (center 0 0) (end 1.25 0) (layer F.CrtYd) (width 0.05))
+    (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module MountingHoleSmall:MountingHole_1mm (layer F.Cu) (tedit 62CF6F17) (tstamp 62CFC6DB)
+    (at 107.55 106.36)
+    (descr "MountingHole_1mm, no annular")
+    (tags "mountingHole_1mm no annular")
+    (attr virtual)
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_1mm (at 0 3.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 1.25 0) (layer F.CrtYd) (width 0.05))
+    (fp_circle (center 0 0) (end 1 0) (layer Cmts.User) (width 0.15))
+    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module MountingHoleSmall:MountingHole_1mm (layer F.Cu) (tedit 62CF6F17) (tstamp 62CFC580)
+    (at 117.45 109.1)
+    (descr "MountingHole_1mm, no annular")
+    (tags "mountingHole_1mm no annular")
+    (attr virtual)
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_1mm (at 0 3.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 1 0) (layer Cmts.User) (width 0.15))
+    (fp_circle (center 0 0) (end 1.25 0) (layer F.CrtYd) (width 0.05))
+    (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module MountingHoleSmall:MountingHole_1mm (layer F.Cu) (tedit 62CF6F17) (tstamp 62CFC50D)
+    (at 117.45 105)
+    (descr "MountingHole_1mm, no annular")
+    (tags "mountingHole_1mm no annular")
+    (attr virtual)
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_1mm (at 0 3.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 1.25 0) (layer F.CrtYd) (width 0.05))
+    (fp_circle (center 0 0) (end 1 0) (layer Cmts.User) (width 0.15))
+    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module MountingHoleSmall:MountingHole_1mm (layer F.Cu) (tedit 62CF6F17) (tstamp 62CFC48F)
+    (at 107.55 109.1)
+    (descr "MountingHole_1mm, no annular")
+    (tags "mountingHole_1mm no annular")
+    (attr virtual)
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_1mm (at 0 3.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 1.25 0) (layer F.CrtYd) (width 0.05))
+    (fp_circle (center 0 0) (end 1 0) (layer Cmts.User) (width 0.15))
+    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module MountingHoleSmall:MountingHole_1mm (layer F.Cu) (tedit 62CF6F17) (tstamp 62CFC3A4)
+    (at 107.55 105)
+    (descr "MountingHole_1mm, no annular")
+    (tags "mountingHole_1mm no annular")
+    (attr virtual)
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_1mm (at 0 3.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 1 0) (layer Cmts.User) (width 0.15))
+    (fp_circle (center 0 0) (end 1.25 0) (layer F.CrtYd) (width 0.05))
+    (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module MountingHoleSmall:MountingHole_1mm (layer F.Cu) (tedit 62CF6F17) (tstamp 62CFC28A)
     (at 120 107.05)
-    (descr "Wire solder connection")
-    (tags connector)
+    (descr "MountingHole_1mm, no annular")
+    (tags "mountingHole_1mm no annular")
     (attr virtual)
-    (fp_text reference REF** (at 0 -3.81) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value SolderWirePad_1x01_Drill1mm (at 0 3.175) (layer F.Fab)
+    (fp_text value MountingHole_1mm (at 0 3.2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 0) (layer F.Fab)
+    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_line (start -1.75 -1.75) (end 1.75 -1.75) (layer F.CrtYd) (width 0.05))
-    (fp_line (start -1.75 -1.75) (end -1.75 1.75) (layer F.CrtYd) (width 0.05))
-    (fp_line (start 1.75 1.75) (end 1.75 -1.75) (layer F.CrtYd) (width 0.05))
-    (fp_line (start 1.75 1.75) (end -1.75 1.75) (layer F.CrtYd) (width 0.05))
-    (pad 1 thru_hole circle (at 0 0) (size 2.49936 2.49936) (drill 1.00076) (layers *.Cu *.Mask))
+    (fp_circle (center 0 0) (end 1 0) (layer Cmts.User) (width 0.15))
+    (fp_circle (center 0 0) (end 1.25 0) (layer F.CrtYd) (width 0.05))
+    (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module Connector_Wire:SolderWirePad_1x01_Drill1mm (layer F.Cu) (tedit 5AEE5EBE) (tstamp 62CF90FC)
+  (module MountingHoleSmall:MountingHole_1mm (layer F.Cu) (tedit 62CF6F17) (tstamp 62CFC1C9)
     (at 105 107.05)
-    (descr "Wire solder connection")
-    (tags connector)
+    (descr "MountingHole_1mm, no annular")
+    (tags "mountingHole_1mm no annular")
     (attr virtual)
-    (fp_text reference REF** (at 0 -3.81) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value SolderWirePad_1x01_Drill1mm (at 0 3.175) (layer F.Fab)
+    (fp_text value MountingHole_1mm (at 0 3.2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_line (start 1.75 1.75) (end -1.75 1.75) (layer F.CrtYd) (width 0.05))
-    (fp_line (start 1.75 1.75) (end 1.75 -1.75) (layer F.CrtYd) (width 0.05))
-    (fp_line (start -1.75 -1.75) (end -1.75 1.75) (layer F.CrtYd) (width 0.05))
-    (fp_line (start -1.75 -1.75) (end 1.75 -1.75) (layer F.CrtYd) (width 0.05))
-    (fp_text user %R (at 0 0) (layer F.Fab)
+    (fp_circle (center 0 0) (end 1.25 0) (layer F.CrtYd) (width 0.05))
+    (fp_circle (center 0 0) (end 1 0) (layer Cmts.User) (width 0.15))
+    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 2.49936 2.49936) (drill 1.00076) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
+  (gr_line (start 120 108.55) (end 120 113.6) (layer F.SilkS) (width 0.12))
+  (gr_line (start 120 100.5) (end 120 105.55) (layer F.SilkS) (width 0.12))
+  (gr_line (start 105 108.55) (end 105 113.6) (layer F.SilkS) (width 0.12))
+  (gr_line (start 105 100.5) (end 105 105.55) (layer F.SilkS) (width 0.12))
+  (gr_line (start 121.5 107.05) (end 124.5 107.05) (layer F.SilkS) (width 0.12))
+  (gr_line (start 100.5 107.05) (end 103.5 107.05) (layer F.SilkS) (width 0.12))
   (gr_line (start 125 100) (end 125 114.1) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 100 100) (end 100 114.1) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 100 114.1) (end 125 114.1) (layer Edge.Cuts) (width 0.05))
