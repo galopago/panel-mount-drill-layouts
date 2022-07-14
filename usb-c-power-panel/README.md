@@ -17,6 +17,17 @@ Different "drilling helpers" for mounting an [USB C POWER PANEL CONNECTOR](asset
 
 ![PCBTEMPLATE](assets/img/pcb.jpg)
 
+## Enclosure drills
+
+
+![PCBTEMPLATE](assets/img/drills.jpg)
+
+## Enclosure cutout
+
+
+![PCBTEMPLATE](assets/img/cutout.jpg)
+
+
 ## Directory structure
 
 | HINT                        | LINK                                     
