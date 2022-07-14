@@ -27,6 +27,10 @@ Different "drilling helpers" for mounting an [USB C POWER PANEL CONNECTOR](asset
 
 ![PCBTEMPLATE](assets/img/cutout.jpg)
 
+## Smoothed enclosure cutout
+
+
+![PCBTEMPLATE](assets/img/smoothedcutout.jpg)
 
 ## Directory structure
 
