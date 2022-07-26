@@ -8,7 +8,7 @@ LED meter                                            |SMA connector             
 
 USB C POWER                                           | USB C POWER AND DATA 
 ------------------------------------------------------|------------------------------------------------------
-![](/usb-c-power-panel/assets/img/usbcpowerpanel.jpg) | ![](/usb-c-data-panel/assets/img/usbcpowerdatapanelconnector.jpg)
+![](/usb-c-power-panel/assets/img/usbcpowerpanel.jpg) | ![](/usb-c-data-panel/assets/img/usbcpowerdatapanel.jpg)
 
 
 ## Devices
