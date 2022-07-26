@@ -6,7 +6,7 @@ Different "drilling helpers" for mounting an [USB C POWER AND DATA BOARD PANEL C
 
 ## USB C power and data panel connector
 
-![USBCPOWERPANELCONNECTOR](assets/img/usbcpowerpanelconnector.jpg)
+![USBCPOWERPANELCONNECTOR](assets/img/usbcpowerdatapanelconnector.jpg)
 
 ## Paper drilling template
 
