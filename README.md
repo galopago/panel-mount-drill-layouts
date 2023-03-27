@@ -11,8 +11,8 @@ USB C POWER                                           | USB C POWER AND DATA
 ![](/usb-c-power-panel/assets/img/usbcpowerpanel.jpg) | ![](/usb-c-data-panel/assets/img/usbcpowerdatapanel.jpg)
 
 
-1 Ethernet and 1 cable gland for a 200x120x75mm enclosure | 
-----------------------------------------------------------|------------------------------------------------------
+1 Ethernet and 1 cable gland for a 200x120x75mm enclosure             |  filler
+----------------------------------------------------------------------|---------------------------------------------------------
 ![](/1-eth-1-gland-200x120x75-enclosure/assets/img/glandethpanel.jpg) | ![](/usb-c-data-panel/assets/img/usbcpowerdatapanel.jpg)
 
 
