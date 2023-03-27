@@ -1,4 +1,4 @@
-# SMA PANEL DEVICES DRILLING TEMPLATES
+# PANEL DEVICES DRILLING TEMPLATES
 
 Different "drilling helpers" for mounting diverse panel devices. Those templates can be produced in different media: paper or PCB. 
 
@@ -9,6 +9,11 @@ LED meter                                            |SMA connector             
 USB C POWER                                           | USB C POWER AND DATA 
 ------------------------------------------------------|------------------------------------------------------
 ![](/usb-c-power-panel/assets/img/usbcpowerpanel.jpg) | ![](/usb-c-data-panel/assets/img/usbcpowerdatapanel.jpg)
+
+
+1 Ethernet and 1 cable gland for a 200x120x75mm enclosure | 
+----------------------------------------------------------|------------------------------------------------------
+![](/1-eth-1-gland-200x120x75-enclosure/assets/img/glandethpanel.jpg) | ![](/usb-c-data-panel/assets/img/usbcpowerdatapanel.jpg)
 
 
 ## Devices
