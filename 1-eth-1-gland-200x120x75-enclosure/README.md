@@ -1,0 +1,23 @@
+# LED PANEL METER DRILLING TEMPLATE
+
+Different "drilling helpers" for mounting 1 Ethernet and 1 cable gland on a 200x120x75mm waterproof plastic enclosure. Those templates can be produced in different media: paper or PCB. 
+
+![1 ETH 1 CABLEGLAND](assets/img/glandethpanel.jpg)
+
+## Enclosure view from above
+
+![200x120x75 ENCLOSURE](assets/img/enclosurefromabove.jpg)
+
+## Paper drilling template
+
+![PAPERTEMPLATE](assets/img/paper.jpg)
+
+
+## Directory structure
+
+| HINT                        | LINK                                     
+|-----------------------------|------------------------------------------
+| Paper (PDF)                 | [PAPER_PDF](assets/pdf/drill-layout.pdf)
+| Paper (SVG)                 | [PAPER_SVG](assets/img/drill-layout.svg)
+
+
