@@ -1,8 +1,8 @@
 # LED PANEL METER DRILLING TEMPLATE
 
-Different "drilling helpers" for mounting 1 Ethernet and 1 cable gland on a 200x120x75mm waterproof plastic enclosure. 
+Different "drilling helpers" for mounting 1 Ethernet and 2 cable gland on a 200x120x75mm waterproof plastic enclosure. 
 
-![1 ETH 1 CABLEGLAND](assets/img/glandethpanel.jpg)
+![1 ETH 2 CABLEGLAND](assets/img/glandethpanel.jpg)
 
 ## Enclosure view from above
 
