@@ -8,6 +8,10 @@ Different "drilling helpers" for mounting 1 Ethernet and 2 cable gland on a 200x
 
 ![200x120x75 ENCLOSURE](assets/img/enclosurefromabove.jpg)
 
+## Ethernet panel connector and cable gland
+![PANEL CONNECTORS](assets/img/connectors.jpg)
+
+
 ## Paper drilling template
 
 ![PAPERTEMPLATE](assets/img/paper.jpg)
